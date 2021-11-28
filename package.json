@@ -1,0 +1,26 @@
+{
+  "name": "rocketq",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido para receber curriculos para a empresa Infomania",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "Rafael Diana Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^16.11.10",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "knex": "^0.95.14",
+    "npm": "^8.1.4",
+    "reflect-metadata": "^0.1.13",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
